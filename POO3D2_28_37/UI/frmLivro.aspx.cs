@@ -34,17 +34,17 @@ namespace POO3D2_28_37.UI
             txtTitulo.Text = "";
             txtNumpaginas.Text = "";
             txtValor.Text = "";
-            txtDataCadastro.Text = "";
         }
 
         protected void btn_cadastrar_Click(object sender, EventArgs e)
         {
             try
             {
+                DateTime data = DateTime.Today;
                 dtolivraria.Id_Autor = int.Parse(txtAutor.Text);
                 dtolivraria.Id_Editora = int.Parse(txtEditora.Text);
                 dtolivraria.Titulo = txtTitulo.Text;
-                dtolivraria.DataCadastro = DateTime.Parse(txtDataCadastro.Text);
+                dtolivraria.DataCadastro = DateTime.Parse(data.ToString("d"));
                 dtolivraria.NumeroPaginas = txtNumpaginas.Text;
                 dtolivraria.Valor = double.Parse(txtValor.Text);
 

@@ -29,7 +29,7 @@ namespace POO3D2_28_37.BLL
             string sql = string.Format($@"INSERT INTO TBL_Livro VALUES (NULL,'{dtolivro.Id_Autor}',
                                                                                '{dtolivro.Id_Editora}',   
                                                                                '{dtolivro.Titulo}',
-                                                                              '{dtolivro.DataCadastro}',
+                                                                              '{dtolivro.DataCadastro.ToString("yy-MM-dd")}',
                                                                                '{dtolivro.NumeroPaginas}',
                                                                                '{dtolivro.Valor}');");
             daoBanco.executarComando(sql);

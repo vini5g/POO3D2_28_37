@@ -87,24 +87,6 @@ namespace POO3D2_28_37.UI
         protected global::System.Web.UI.WebControls.TextBox txtTitulo;
 
         /// <summary>
-        /// Controle lbldatacadastro.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbldatacadastro;
-
-        /// <summary>
-        /// Controle txtDataCadastro.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtDataCadastro;
-
-        /// <summary>
         /// Controle lblnumpaginas.
         /// </summary>
         /// <remarks>

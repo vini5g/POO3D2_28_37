@@ -39,11 +39,6 @@
                                 </div><br />
 
                                     <div class="form-group">
-                                        <asp:Label ID="lbldatacadastro" runat="server" Text="Data Cadastro"></asp:Label>
-                                    <asp:TextBox ID="txtDataCadastro" type="date" runat="server" CssClass="form-control"></asp:TextBox>
-                                    </div><br />
-
-                                    <div class="form-group">
                                         <asp:Label ID="lblnumpaginas" runat="server" Text="Número de páginas"></asp:Label>
                                     <asp:TextBox ID="txtNumpaginas" type="number" runat="server" CssClass="form-control"></asp:TextBox>
                                     </div><br />
