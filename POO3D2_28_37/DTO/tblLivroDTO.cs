@@ -58,7 +58,7 @@ namespace POO3D2_28_37.DTO
                 }
                 else
                 {
-                    throw new Exception("O campo 'num_Paginas' é obrigatório!");
+                    throw new Exception("O campo 'Número Paginas' é obrigatório!");
                 }
             }
             get { return this.num_Paginas; }
